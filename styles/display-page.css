@@ -1,0 +1,27 @@
+.design__wrapper {
+  width: 800px;
+  text-align: center;
+  margin: 90px auto;
+  font-size: 0;
+}
+
+.block {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.half {
+  width: 50%;
+  height: 200px
+}
+
+.third {
+  width: 33.33%;
+  height: 300px
+}
+
+.green { background: green; }
+.blue { background: blue; }
+.gray { background: gray; }
+.black { background: black; }
+.orange { background: orange; }
