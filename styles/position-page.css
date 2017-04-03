@@ -21,7 +21,7 @@ nav .image-container{
   border: 2px solid #fff;
   box-shadow: 0 0 5px #666;
   overflow: hidden;
-  float: left;
+  position: absolute;
 }
 
 nav .image-container img{
@@ -29,9 +29,11 @@ nav .image-container img{
 }
 
 nav ul{
-  float: left;
+  display: inline-block;
   list-style: none;
   text-align: left;
+  margin-left: 100px;
+  padding: 0;
 }
 
 nav ul li {
